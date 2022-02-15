@@ -17,15 +17,14 @@ const eqArrays = require('./eqArrays');
 
 
 module.exports = {
-  head: head,
-  tail: tail,
-  middle: middle,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual,
+  head,
+  tail,
+  middle,
+  assertEqual,
+  assertArraysEqual,
   //assertObjectsEqual: assertObjectsEqual,
   //countLetters: countLetters,
   //countOnly: countOnly,
-  eqArrays: eqArrays,
   //eqObjects: eqObjects,
   //findKey: findKey,
   //findKeyByValue: findKeyByValue,
@@ -33,5 +32,5 @@ module.exports = {
   //map: map,
   //takeUntil: takeUntil,
   //without: without
-
+  eqArrays
 };
